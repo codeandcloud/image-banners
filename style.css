@@ -1,0 +1,30 @@
+button,
+input[type='button'],
+.banner-button {
+  min-width: 115px;
+  height: 30px;
+  background: #4e9caf;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+#banner-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: 1fr;
+}
+
+.banner-image {
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+.banner-button,
+.banner-text {
+  margin-top: 5px;
+}
